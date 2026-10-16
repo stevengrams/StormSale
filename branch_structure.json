@@ -1,0 +1,27 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "fix/issue-66-auditor-secure-external-auditor-sharing",
+    "fix/issue-66-auditor-secure-external-auditor-sharing-r2",
+    "fix/issue-67-state-tanstack-query-standard-implementation",
+    "fix/issue-67-state-tanstack-query-standard-implementation-r2",
+    "main",
+    "origin"
+  ],
+  "parent": {
+    "fix/issue-66-auditor-secure-external-auditor-sharing": "main",
+    "fix/issue-66-auditor-secure-external-auditor-sharing-r2": "fix/issue-66-auditor-secure-external-auditor-sharing",
+    "fix/issue-67-state-tanstack-query-standard-implementation": "main",
+    "fix/issue-67-state-tanstack-query-standard-implementation-r2": "fix/issue-67-state-tanstack-query-standard-implementation",
+    "main": null,
+    "origin": "main"
+  },
+  "order": [
+    "main",
+    "fix/issue-66-auditor-secure-external-auditor-sharing",
+    "fix/issue-67-state-tanstack-query-standard-implementation",
+    "origin",
+    "fix/issue-66-auditor-secure-external-auditor-sharing-r2",
+    "fix/issue-67-state-tanstack-query-standard-implementation-r2"
+  ]
+}
